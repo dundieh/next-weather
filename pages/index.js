@@ -11,7 +11,7 @@ export default function Home() {
   const [city, setCity] = useState('');
   const [weather, setWeather] = useState({});
   const [loading, setLoading] = useState(false);
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=62c8b31c643e920b75e6f8c35f44d47d`;
+  const url = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric&appid=' + process.env.API_KEY;
   const fetchWeather = (e) => {
     e.preventDefault();
     setLoading(true);
