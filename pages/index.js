@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Weather - Next.js</title>
+        <title>Weather - Next</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
     </div>
