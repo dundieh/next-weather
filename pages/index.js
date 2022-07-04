@@ -30,7 +30,7 @@ export default function Home() {
     return (
       <div>
         <Head>
-          <title>Weather - Next</title>
+          <title>Next Weather</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
   
